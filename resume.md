@@ -1,23 +1,14 @@
----
-stylesheet: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css
-body_class: markdown-body
-css: |-
-  .markdown-body { font-size: 10px; }
----
-
 # 職務経歴書
-
-## SNS
 
 [GitHub](https://github.com/yumafuu) | [X(Twitter)](https://x.com/yuma_katameoome)
 
 ## 基本情報
 
-バックエンドの機能開発に加えて、インフラの構築・運用、CI/CDの構築、モニタリングの構築などを行ってきました。
-バックエンド、インフラをメインの技術スタックですが、フロントエンドの実装経験もあります。
+主にバックエンドの機能開発とAWSとコンテナを活用したインフラの構築・運用、CI/CDの構築、モニタリング基盤の構築などを行ってきました。また、 簡単なフロントエンドの実装経験もあります。
 
+SREやPlatform Engineeringに関心があり、業務効率化や信頼性・DX向上に取り組んでいます。
 
-Platform Engineeringに関心があり、業務効率化や信頼性・DX向上のためのツールを作成してGitHubで公開したり、プラクティスをZennの記事として公開したりしています。
+また、上記のためのツールを作成してGitHubで公開したり、プラクティスをZennの記事として公開したりしています。
 
 **Zenn**
 - [mailpitでメール送信のテストをする with Go](https://zenn.dev/ispec_inc/articles/mailpit-introduction)
@@ -37,7 +28,7 @@ Platform Engineeringに関心があり、業務効率化や信頼性・DX向上�
 
 ## 株式会社ラビッツ
 
-開発者3名程度のチームでRuby on Railsを使ったエンジニア転職サイトの開発に従事。
+Ruby on Railsを使ったエンジニア転職サイトの開発に従事。
 担当はバックエンドとフロントエンドで機能単位での開発を行った。
 
 **技術スタック**
@@ -47,36 +38,44 @@ Platform Engineeringに関心があり、業務効率化や信頼性・DX向上�
 
 - AWS
     - EC2
-        - Capistrano
     - RDS
 
 
 ## ispec inc
 
-バックエンド・インフラをメインに担当。その他、簡単なフロントエンドの実装や業務効率化のための社内ツールの開発も行っている。
+受託開発で10を超える様々な領域でのアプリケーションのゼロイチ開発を経験しました。
 
-受託開発で10を超える様々な領域でのアプリケーションのゼロイチ開発を経験。
+Go,Ruby,TypeScriptを用いたバックエンドの機能開発とTerrformを使ったIaCの導入・整備やセキュリティ担保、CI/CDの構築、Datadogを用いた監視基盤の構築などを行っています。
 
-一部抜粋して記載する。(順不同)
+Vue,Reactを使ったフロントエンドの実装とTailwind CSSやVuetifyを使ったデザインの実装も経験があります。
+
+また、VPoE就任後は採用活動を行っており、カジュアル面談や技術面談を担当していました。
+
+担当したプロジェクトを一部抜粋して記載します。(順不同)
+
 
 ### JamRoll
 
-インフラエンジニアとして参画。
+[JamRoll (ジャムロール) | AIが自動で録画・文字起こし・解析](https://jamroll.poetics-ai.com/)
 
-EKSを用いてk8sクラスターの構築・運用やCI/CDの整備などを担当。
+インフラエンジニアとして参画し、EKSを用いてk8sクラスターの構築・運用やCI/CDの整備などを担当しましました。
+
+ArgoCDを使ったGitOpsの導入や、SSM Parameter Storeの社内での利用実績が多く、SSM Parameter Storeを使うことができるexternal-secretsを使ったシークレット管理の導入を行いました。
+
 
 **技術スタック**
 - AWS
   - EKS
-    - helm
-    - ArgoCD
+    - [Helm](https://helm.sh/)
+    - [Argo CD | Argo](https://argoproj.github.io/cd/)
     - [external-secrets](https://github.com/external-secrets/external-secrets)
   - Aurora (MySQL)
-  - ALB
 - CircleCI
 
 
 ### Nursebe
+
+[ナースビー｜看護師のための、ぴえん相談室](https://nursebe.jp/)
 
 バックエンド・インフラエンジニアとして参画。TypeScriptを用いたAPIの設計・開発とAWSを用いたインフラ構築を行った。
 開発リソースをできるだけ減らしながら、スケーラブルなアプリケーションを作ることを目指し、バックエンドとフロントエンドでTypeScriptを採用し、インフラにAWS App RunnerとAurora Serverlessを採用した。
@@ -86,7 +85,7 @@ EKSを用いてk8sクラスターの構築・運用やCI/CDの整備などを担
     - AWS App Runner
     - Amplify Hosting
 - GitHub Actions
-- NestJS
+- [NestJS](https://nestjs.com/)
     - TypeScript
     - [Prisma](https://www.prisma.io/)
 
@@ -99,9 +98,7 @@ Ruby on Railsを用いたAPIの設計・開発とAWSを用いたインフラ構�
 - AWS
     - ECS
         - [ecspresso](https://github.com/kayac/ecspresso)
-        - Fargate
     - Aurora Serverless V2
-        - MySQL
     - Lambda
         - [lambroll](https://github.com/fujiwara/lambroll)
     - Amplify Hosting
@@ -114,6 +111,23 @@ Ruby on Railsを用いたAPIの設計・開発とAWSを用いたインフラ構�
 - Datadog
     - Datadog Logs
 
+### 医療クリニック向け予約管理アプリ
+
+医療クリニック向けの予約管理アプリの認証基盤の実装と・インフラ、監視基盤の構築を担当しています。
+
+Datadogを導入してより詳細な監視を行い、信頼性の高いアプリケーションを目指しています。
+
+**技術スタック**
+- AWS
+    - Terraform
+    - ECS
+    - Aurora Serverless V2
+- Datadog
+    - Datadog APM
+    - Datadog Logs
+- Go
+
+
 ### 不動産向け退去立ち会い管理アプリ
 
 LINE Botを用いた不動産向け退去立ち会い管理アプリのバックエンド・インフラ・フロントエンドを担当しました。
@@ -122,14 +136,11 @@ LINE Botを用いた不動産向け退去立ち会い管理アプリのバック
 - AWS
     - Terraform
     - ECS
-        - Fargate
     - Aurora
-        - MySQL
     - Amplify Hosting
 - LINE Bot
     - Messaging API
 - Go
-    - Gin
     - [line-bot-sdk-go](https://github.com/line/line-bot-sdk-go)
 - Vue
     - [Nuxt](https://nuxt.com/)
@@ -142,9 +153,7 @@ PHPで書かれたレガシーシステムのコードを引き継ぎUIの改修
 **技術スタック**
 - AWS
     - ECS
-        - Fargate
     - RDS
-        - MySQL
 - UI
     - PHP
     - [Tailwind CSS](https://tailwindcss.com/)
@@ -167,10 +176,7 @@ PHPで書かれたレガシーシステムのコードを引き継ぎUIの改修
 
 GoのAPI開発、インフラ構築、CI/CDの構築、モニタリングの構築など、様々なプロジェクトにスポットで参画しました。
 
-## OSS活動
-
-OSSに貢献したいと思いがあり、わずかですが以下のような活動を行っています。
-
+## 個人活動
 
 ### TerraformのモジュールやGithub ACtionsのパッケージの公開
 
@@ -183,8 +189,8 @@ OSSに貢献したいと思いがあり、わずかですが以下のような�
 | [ispec-inc/terraform-backend-cfn-template](https://github.com/ispec-inc/terraform-backend-cfn-template) | Terraformのバックエンドを構築するためのCloudFormationテンプレート                            |
 | [yumafuu/docker-build-ecr-push-action](https://github.com/yumafuu/docker-build-ecr-push-action)         | DockerイメージをビルドしてECRにプッシュするGitHub Actionsのアクション                        |
 
-### aquaへのパッケージ追加
+### 登壇経験
 
-CLIツールのパッケージマネージャーである[aqua](https://aquaproj.github.io/)にパッケージを追加するようにしています。
-- [Commits · aquaproj/aqua-registry](https://github.com/aquaproj/aqua-registry/commits?author=yumafuu)
-
+Amazon ECSのデプロイツールであるecspressoの活用事例についてecspresso MeetUpにて登壇しました。
+- [JAWS-UG コンテナ支部 #24 ecspresso MeetUp - connpass](https://jawsug-container.connpass.com/event/285124/)
+- [ecspresso MeetUpで登壇しました！ #jawsug\_ct](https://zenn.dev/ispec_inc/articles/ecspresso-lt)
