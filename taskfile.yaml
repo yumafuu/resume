@@ -1,11 +1,15 @@
 version: 3
 
 tasks:
-  gen:
-    desc: Generate the project
+  gen-pdf:
+    desc: Generate PDF
     cmds:
       - |
         bunx md-to-pdf resume.md \
           --stylesheet 'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css' \
           --body-class markdown-body \
           --css '.markdown-body { font-size: 10px; }'
+  lint:
+    desc: Lint
+    cmds:
+      - bunx textlint --fix resume.md
