@@ -1,5 +1,7 @@
 # 職務経歴書
 
+石川湧馬（いしかわ ゆうま）
+
 [GitHub](https://github.com/yumafuu) | [X(Twitter)](https://x.com/yuma_katameoome)
 
 ## 基本情報
