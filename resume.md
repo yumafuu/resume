@@ -1,6 +1,6 @@
 # 職務経歴書
 
-石川湧馬（いしかわゆうま）
+Yuma Ishikawa
 
 [GitHub](https://github.com/yumafuu) | [X(Twitter)](https://x.com/yuma_katameoome)
 
