@@ -8,7 +8,7 @@ on:
 
 jobs:
   textlint:
-    name: Analyze
+    name: TextLint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,5 +16,6 @@ jobs:
       - uses: aquaproj/aqua-installer@v3.0.1
         with:
           aqua_version: v2.28.0
+          aqua_opts: ""
 
       - run: task lint
