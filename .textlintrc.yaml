@@ -1,0 +1,3 @@
+filters: {}
+rules:
+  no-dropping-the-ra: true
