@@ -1,6 +1,6 @@
 # 職務経歴書
 
-石川湧馬（いしかわ ゆうま）
+石川湧馬（いしかわゆうま）
 
 [GitHub](https://github.com/yumafuu) | [X(Twitter)](https://x.com/yuma_katameoome)
 
