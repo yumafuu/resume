@@ -8,5 +8,5 @@
 ```bash
 $ aqua i -l
 # ciはないので手動でbuildしてください
-$ task gen
+$ task gen-pdf
 ```
